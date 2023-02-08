@@ -1,4 +1,3 @@
-import { View, Text } from "react-native";
 import React from "react";
 import propTypes from "prop-types";
 
@@ -77,6 +76,7 @@ Button.propTypes = {
   href: propTypes.string,
   className: propTypes.string,
   isDisabled: propTypes.bool,
+  isExternal: propTypes.bool,
   isLoading: propTypes.bool,
   isPrimary: propTypes.bool,
   isSmall: propTypes.bool,
