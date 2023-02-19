@@ -3,8 +3,8 @@ import React from "react";
 
 export default function IconText() {
   return (
-    <Button className="brand-text-icon" href="">
-      Stay <span className="text-gray-900">cation.</span>
+    <Button className="brand-text-icon mx-auto" href="" type="link">
+      Stay<span className="text-gray-900">cation.</span>
     </Button>
   );
 }

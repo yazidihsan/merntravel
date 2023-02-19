@@ -1,13 +1,12 @@
-import { StyleSheet, Text, View } from "react-native";
-import React from "react";
-import Button from "elements/Button";
+import Header from "parts/Header";
+import React, { Component } from "react";
 
-export default function LandingPage() {
-  return (
-    <View>
-      <Text>LandingPage</Text>
-    </View>
-  );
+export default class LandingPage extends Component {
+  render() {
+    return (
+      <>
+        <Header {...this.props}></Header>
+      </>
+    );
+  }
 }
-
-const styles = StyleSheet.create({});
