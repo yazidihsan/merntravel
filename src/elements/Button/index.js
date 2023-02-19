@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 export default function Button(props) {
   const className = [props.className];
 
-  if (props.isPrimary) return className.push("btn-primary");
-  if (props.isLarge) return className.push("btn-lg");
-  if (props.isSmall) return className.push("btn-sm");
-  if (props.isBlock) return className.push("btn-block");
-  if (props.hasShadow) return className.push("btn-shadow");
+  if (props.isPrimary) className.push("btn-primary");
+  if (props.isLarge) className.push("btn-lg");
+  if (props.isSmall) className.push("btn-sm");
+  if (props.isBlock) className.push("btn-block");
+  if (props.hasShadow) className.push("btn-shadow");
 
   const onClick = () => {
     if (props.onClick) props.onClick();
